@@ -4,12 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c8c9d387-4c59-40e5-879e-1304485afb33" name="Changes" comment="gitignore등록">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="c8c9d387-4c59-40e5-879e-1304485afb33" name="Changes" comment="테스트코드 작성">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ssshyeon/admin/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ssshyeon/admin/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ssshyeon/admin/domain/BaseTimeEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ssshyeon/admin/domain/BaseTimeEntity.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +51,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="package-info" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -76,7 +78,7 @@
     "settings.editor.selected.configurable": "reference.projectsettings.compiler.annotationProcessors"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.HelloControllerTest.helloDto가_리턴된다">
+  <component name="RunManager" selected="Application.Application">
     <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ssshyeon.admin.Application" />
       <module name="first_springboot.main" />
@@ -89,29 +91,6 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
-    </configuration>
-    <configuration name="HelloControllerTest.hello가_리턴된다" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;com.ssshyeon.admin.web.HelloControllerTest.hello가_리턴된다&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
     </configuration>
     <configuration name="HelloControllerTest.helloDto가_리턴된다" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="first_springboot.test" />
@@ -129,7 +108,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HelloControllerTest.hello가_리턴된다" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PostsApiControllerTest.Posts_등록된다" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="first_springboot.test" />
       <extension name="coverage">
         <pattern>
@@ -138,24 +117,40 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.ssshyeon.admin.web" />
-      <option name="MAIN_CLASS_NAME" value="com.ssshyeon.admin.web.HelloControllerTest" />
-      <option name="METHOD_NAME" value="hello가_리턴된다" />
+      <option name="MAIN_CLASS_NAME" value="com.ssshyeon.admin.web.PostsApiControllerTest" />
+      <option name="METHOD_NAME" value="Posts_등록된다" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HelloResponseDtoTest.롬북_기능_테스트" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PostsApiControllerTest.Posts_수정된다" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="first_springboot.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ssshyeon.admin.web.dto.*" />
+          <option name="PATTERN" value="com.ssshyeon.admin.web.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.ssshyeon.admin.web.dto" />
-      <option name="MAIN_CLASS_NAME" value="com.ssshyeon.admin.web.dto.HelloResponseDtoTest" />
-      <option name="METHOD_NAME" value="롬북_기능_테스트" />
+      <option name="PACKAGE_NAME" value="com.ssshyeon.admin.web" />
+      <option name="MAIN_CLASS_NAME" value="com.ssshyeon.admin.web.PostsApiControllerTest" />
+      <option name="METHOD_NAME" value="Posts_수정된다" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PostsRepositoryTest.게시글저장_불러오기" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="first_springboot.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ssshyeon.admin.domain.posts.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ssshyeon.admin.domain.posts" />
+      <option name="MAIN_CLASS_NAME" value="com.ssshyeon.admin.domain.posts.PostsRepositoryTest" />
+      <option name="METHOD_NAME" value="게시글저장_불러오기" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -163,11 +158,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.HelloControllerTest.helloDto가_리턴된다" />
-        <item itemvalue="JUnit.HelloResponseDtoTest.롬북_기능_테스트" />
         <item itemvalue="Application.Application" />
-        <item itemvalue="JUnit.HelloControllerTest.hello가_리턴된다" />
-        <item itemvalue="Gradle.HelloControllerTest.hello가_리턴된다" />
+        <item itemvalue="JUnit.PostsApiControllerTest.Posts_수정된다" />
+        <item itemvalue="JUnit.PostsApiControllerTest.Posts_등록된다" />
+        <item itemvalue="JUnit.PostsRepositoryTest.게시글저장_불러오기" />
+        <item itemvalue="JUnit.HelloControllerTest.helloDto가_리턴된다" />
       </list>
     </recent_temporary>
   </component>
@@ -187,7 +182,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675573798466</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="테스트코드 작성">
+      <created>1675577600770</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1675577600770</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -203,6 +205,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="gitignore등록" />
-    <option name="LAST_COMMIT_MESSAGE" value="gitignore등록" />
+    <MESSAGE value="테스트코드 작성" />
+    <option name="LAST_COMMIT_MESSAGE" value="테스트코드 작성" />
   </component>
 </project>
